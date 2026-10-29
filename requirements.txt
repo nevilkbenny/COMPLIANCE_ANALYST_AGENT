@@ -1,0 +1,31 @@
+pdfplumber
+sentence-transformers
+chromadb
+
+# LangChain document loaders & text splitters
+langchain
+langchain-community
+langchain-core
+langchain-text-splitters
+langchain-experimental   # SemanticChunker
+pypdf                    # backend for PyPDFLoader
+tiktoken                 # token-based splitting (cl100k_base tokeniser)
+fonttools
+langchain-chroma
+
+# ── LangGraph orchestration ───────────────────────────────────────────────────
+langgraph                # graph orchestration + interrupt / checkpointing
+langgraph-checkpoint     # checkpointer base classes (pulled in by langgraph)
+
+# ── LLM: Google Gemini 1.5 Flash ─────────────────────────────────────────────
+langchain-google-genai   # LangChain wrapper for Gemini
+google-generativeai      # underlying Google AI Python SDK
+
+# ── Streamlit UI ─────────────────────────────────────────────────────────────
+streamlit                # browser-based human review interface
+
+# ── Async helpers ─────────────────────────────────────────────────────────────
+nest-asyncio             # allows asyncio.run() inside existing event loops (Streamlit)
+
+# ── Web Search ────────────────────────────────────────────────────────────────
+tavily-python            # Tavily AI Search API client

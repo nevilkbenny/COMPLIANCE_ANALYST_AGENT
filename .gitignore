@@ -1,0 +1,41 @@
+# Environment variables (CRITICAL: Never commit API keys!)
+.env
+.env.*
+!.env.example
+
+# Python virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python byte-code & caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Local databases & storage
+*.sqlite
+*.db
+sebi_monitor_db.sqlite
+
+# Vector store data
+chroma_db/
+chroma_storage/
+*.parquet
+
+# Logs & temp files
+*.log
+streamlit_app.log
+scratch/
+
+# Data folder (PDFs, policies, datasets, and generated assets)
+DATA/
+data/
+
+# OS & IDE metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
